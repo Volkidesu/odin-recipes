@@ -1,10 +1,12 @@
 .head,
 .para {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
 }
 
 .head {
     background-color: rgba(236, 230, 230, 0.479);
+    font-size: 24px;
 }
 
 
@@ -19,6 +21,7 @@
 
 .list.ingredient {
     list-style-image: url(img/icons/icons8-checkbox-markiert-2-15.svg);
+    font-size: 19px;
 }
 
 .image {
