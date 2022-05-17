@@ -1,0 +1,31 @@
+.head,
+.para {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+}
+
+.head {
+    background-color: rgba(236, 230, 230, 0.479);
+    font-size: 24px;
+}
+
+
+.navi {
+    color: black;
+    font-style: italic;
+}
+
+.list {
+    font-style: oblique;
+}
+
+.list.ingredient {
+    list-style-image: url(img/icons/icons8-checkbox-markiert-2-15.svg);
+    font-size: 19px;
+}
+
+.image {
+    border: solid black;
+    border-radius: 4px;
+}
+

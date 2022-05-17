@@ -1,41 +1,43 @@
-.head,
-.para {
+.body {
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
+    display: flex;
+    flex-direction: column;
 }
 
-.head {
+.header {
+    display: flex;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(236, 230, 230, 0.479);
     font-size: 24px;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
+    gap: 8px;
+    flex-grow: 1;
+  }
 
-.navi {
-    color: black;
-    font-style: italic;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
-.list {
-    font-style: oblique;
-}
-
-.list.ingredient {
-    list-style-image: url(img/icons/icons8-checkbox-markiert-2-15.svg);
-    font-size: 19px;
-}
 
 .image {
     border: solid black;
     border-radius: 4px;
 }
 
-.row {
-    display: flex;
-  }
-
-.link {
-    flex: 33.33%;
-    padding: 5px;
+a {
+    text-decoration: none;
+    color: grey;
 }
-
  
