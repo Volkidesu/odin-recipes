@@ -1,10 +1,11 @@
 html, body {
-    font-family: 'Oswald', sans-serif;
+    font-family: Trebuchet, Arial, Helvetica, 'Oswald', sans-serif;
     font-size: 21px;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 
 header {
     display: flex;
